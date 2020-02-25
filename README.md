@@ -47,8 +47,8 @@ kubectl get deployment
 You should see something like this:
 
 ```sh
-NAME               READY   UP-TO-DATE   AVAILABLE   AGE
-nginx-deployment   2/2     2            2           30m
+NAME                    READY   UP-TO-DATE   AVAILABLE   AGE
+k8s-docker-deployment   2/2     2            2           30m
 ```
 
 Get pods:
@@ -60,9 +60,9 @@ kubectl get pods
 You should see something like this:
 
 ```sh
-NAME                                READY   STATUS    RESTARTS   AGE
-nginx-deployment-54f57cf6bf-5pjj2   1/1     Running   0          31m
-nginx-deployment-54f57cf6bf-9fqht   1/1     Running   0          31m
+NAME                                     READY   STATUS    RESTARTS   AGE
+k8s-docker-deployment-54f57cf6bf-5pjj2   1/1     Running   0          31m
+k8s-docker-deployment-54f57cf6bf-9fqht   1/1     Running   0          31m
 ```
 
 Adding a service:
@@ -80,8 +80,8 @@ kubectl get service
 You should see something like this:
 
 ```sh
-NAME                 TYPE        CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
-k8s-docker-service   NodePort    IP   <none>        80:31000/TCP   26m
+NAME                 TYPE        CLUSTER-IP    EXTERNAL-IP   PORT(S)        AGE
+k8s-docker-service   NodePort    IP            <none>        80:31000/TCP   26m
 ```
 
 Describe service:
