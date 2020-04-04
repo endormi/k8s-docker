@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker pull endormi2/vue-docker-image:v1
+  - docker pull endormi2/vue-docker-image:latest

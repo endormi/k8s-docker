@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: endormi2/vue-docker-image:v1
+        image: endormi2/vue-docker-image:latest
         ports:
         - containerPort: 80
