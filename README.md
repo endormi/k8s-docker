@@ -1,6 +1,6 @@
 # k8s-docker
 
-Kubernetes with Docker (Vue.js)
+[Docker image](https://github.com/endormi/vue-docker-image).
 
 ## How to use Minikube
 
