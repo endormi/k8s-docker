@@ -1,4 +1,4 @@
-# k8s-docker
+# vue-k8s-docker
 
 [Docker image](https://github.com/endormi/vue-docker-image).
 
